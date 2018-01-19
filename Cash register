@@ -1,0 +1,11 @@
+#from CashRegister import CashRegister
+
+cash = CashRegister()
+print(cash.getTotal())
+print(cash.getCount())
+cash.addition(99)
+
+print(cash.getTotal())
+print(cash.getCount())
+
+cash.givechange(120)
